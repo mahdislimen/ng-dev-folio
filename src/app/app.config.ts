@@ -8,7 +8,7 @@ import { provideLottieOptions } from 'ngx-lottie';
 import { playerFactory } from './components/shared/animation-lottie/animation-lottie.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
+import { RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha-angular19';
 import { environment } from '@/environments/environment';
 
 export const appConfig: ApplicationConfig = {
