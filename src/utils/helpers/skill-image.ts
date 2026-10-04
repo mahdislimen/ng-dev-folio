@@ -2,6 +2,7 @@ export type Skill =
   | 'adobe-xd'
   | 'after-effects'
   | 'angular'
+  | 'jboss'
   | 'android'
   | 'kotlin'
   | 'aws'
@@ -62,6 +63,8 @@ export const skillsImage = (skill: string): string => {
     case 'after effects':
       return `/assets/svg/skills/after-effects.svg`;
     case 'angular':
+      return `/assets/svg/skills/${skillID}.svg`;
+    case 'jboss':
       return `/assets/svg/skills/${skillID}.svg`;
     case 'android':
       return `/assets/svg/skills/${skillID}.svg`;
